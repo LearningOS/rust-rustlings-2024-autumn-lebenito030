@@ -6,6 +6,9 @@
 // hint.
 
 
+
 fn main() {
-    println!("Hello world!");
+    const WORLD: &str = "world";
+
+    println!("Hello {}!", WORLD);
 }
